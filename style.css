@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Balsamiq Sans', cursive;
+    text-align: center;
+}
+
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+    background-image: url('https://cutewallpaper.org/21/black-sparkle-wallpaper/Black-Glitter-Wallpaper-One-plus-Wallpapers.jpg');
+}
+
+div {
+    background-color: rgba(214, 210, 187, 0.616);
+    margin: 10px;
+    padding: 10px;
+}
+
+p {
+    color:rgb(77, 0, 128);
+    padding: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+}
+
+.accent {
+    color: black;
+}
+
+#maintittle {
+    padding: 20px; 
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+
+#secondarytittle {
+    color: rgb(77, 0, 128);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+
+#fotohead {
+    width: 100%;
+}
+
+#vanishing {
+    cursor: url("https://i.imgur.com/L1Evx35.png"), auto;
+    margin: 30px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+#trucosombrero {
+    cursor: url("https://i.imgur.com/L1Evx35.png"), auto;
+}
+
+#palabra {
+    cursor: url("https://i.imgur.com/L1Evx35.png"), auto;
+}
+
+#palabramag {
+    font-size: 40px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+}
+
+#vanishingparagraph {
+    display: none;
+}
+
+#siguiente1 {
+    display: none
+}
+
+#siguiente2 {
+    display: none
+}
+
+#siguiente3 {
+    display: none
+}
+
+#adios {
+    display: none;
+}
+
+#todo {
+    display: block;
+}

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Max Alarcón Rätsch</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://www.silhouettevectorstock.com/blog/wp-content/uploads/2013/12/Bunny-Silhouette-Vector.jpg"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <div id="todo">
+      <div id="encabezado">
+        <img
+          id="fotohead"
+          src="https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2021/06/tuxedo-mask-1.jpg"
+        />
+        <h1 id="maintittle" class="accent">¿Quieres ver algo de magia?</h1>
+      </div>
+
+      <div>
+        <h2 id="secondarytittle">¡Hola! ¡Es un placer conocerte!</h2>
+        <p>
+          Soy el gran mago Adgeti Eum-El, y viajo desde tierras lejanas por todo
+          el mundo para mostrar mi magia a quienes quieran observar, ¡incluso a
+          través de tu computador!
+        </p>
+        <p>¿Qué dices? ¿Te animas a ayudarme con mi magia?</p>
+        <button type="button" onclick="comenzar()">¡Vamos!</button>
+      </div>
+
+      <div id="vanishingparagraph">
+        <p>Para mi primer truco, haremos desaparecer un poco de texto.</p>
+        <p>
+          Lo que tienes que hacer es fácil: simplemente pon tu cursor sobre el
+          texto negro y hacer click. ¡Te dejaré usar mi varita mágica!
+        </p>
+        <div id="vanish">
+          <p class="accent" id="vanishing">
+            ¡Hazme desaparecer con todo tu poder!
+          </p>
+        </div>
+        <button type="button" onclick="siguiente1()">¡Lo logré!</button>
+      </div>
+
+      <div id="siguiente1">
+        <p>¡Bien hecho! ¡No podría haberlo hecho sin tí!</p>
+        <p>
+          Parece que tienes mucho talento. ¿Qué te parece si me dices tu nombre
+          y cómo contactarte? ¡Puede que necesite un asistente en el futuro!
+        </p>
+        <p>
+          Te contaré un secreto: hay magia en esta página también. Si eres un
+          buen candidato y tienes magia en tí, ¡Puede que las casillas de
+          información cambien de color!
+        </p>
+        <div id="values">
+          <p class="accent">Nombre: <input type="text" name="user" /></p>
+          <p class="accent">Email: <input type="text" name="email" /></p>
+        </div>
+        <button type="button" onclick="siguiente2()">
+          ¡El color ha cambiado!
+        </button>
+      </div>
+
+      <div id="siguiente2">
+        <p>¡Sabía que tenías potencial!</p>
+        <p>
+          Ahora para el siguiente truco. Para un mago, no todo es simplemente
+          hacer desaparecer cosas - ¡También puedes hacerlas reaparecer a
+          voluntad!
+        </p>
+        <p>
+          Debes de conocer el truco del conejo en el sombrero. Bueno, ¡esto es
+          algo parecido!
+        </p>
+        <p>
+          Imagina que el título - el texto más grande - es el sombrero. Y ahora,
+          traeré mi conejo virtual para que puedas hacer el truco sin problemas.
+        </p>
+        <p>
+          ¡Presiona sobre el sombrero para hacer desaparecer o reaparecer el
+          conejo!
+        </p>
+
+        <div id="trucosombrero">
+          <div id="conejo"><p class="accent">₍ᐢ｡ܫ｡ᐢ₎</p></div>
+          <div id="sombrero"><h2 class="accent">Sombrero</h2></div>
+        </div>
+
+        <button type="button" onclick="siguiente3()">¡Lo he hecho!</button>
+      </div>
+
+      <div id="siguiente3">
+        <p>
+          ¡Vaya, voy a tener que tener cuidado! ¡A este paso me dejarás sin
+          trabajo!
+        </p>
+        <p>
+          Me he divertido mucho viendo cómo te desempeñas en esto de la magia,
+          pero lamentablemente, me he quedado sin tiempo hoy.
+        </p>
+        <p>
+          Pero, no te preocupes, ¡he grabado nuestra interacción, y podrás
+          repetirla cuantas veces quieras!
+        </p>
+        <p>
+          Obviamente, este es un premio sólo para tí, mi discípulo. ¡Así que
+          tendremos que tener cuidado que nadie más se entere de todo esto!
+        </p>
+        <p>
+          Para eso, te enseñaré un último truco. No te preocupes, ya eres un
+          experto, ¡definitivamente saldrá bien!
+        </p>
+        <p>
+          Haz click sobre mi palabra mágica, ¡y harás desaparecer todo el
+          contenido!
+        </p>
+        <div id="palabra">
+          <h2 class="accent" id="palabramag" onclick="borrarTodo()">
+            ¡ yabbah-ssi-kreept !
+          </h2>
+        </div>
+      </div>
+    </div>
+    <div id="adios">
+      <img
+        id="hastalaprox"
+        src="https://c.tenor.com/gVNtpcYIHd8AAAAC/sailormoon-sailor.gif"
+      />
+      <h2 id="palabramag">¡Hasta la próxima!</h2>
+    </div>
+  </body>
+</html>
